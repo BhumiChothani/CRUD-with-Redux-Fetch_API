@@ -1,0 +1,17 @@
+.modalwrapper{
+   position: fixed;
+   top: 0; left: 0; right: 0; bottom: 0;
+   background-color: rgb(19, 18, 18);
+   opacity: 0.91;
+   z-index: 100;
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+}
+.modalbox{
+    max-width: 400px;
+    background-color: rgb(235, 226, 226);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(71, 66, 66);
+    padding: 10px 20px;
+}
